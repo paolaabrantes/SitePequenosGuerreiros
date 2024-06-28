@@ -1,0 +1,29 @@
+.lista__depoimentos {
+    background-color: var(--cor-de-fundo);
+}
+
+
+.depoimentos__item {
+    background-color: var(--cor-branco-principal);
+    margin: 2em;
+    padding: 0.5;
+    border-radius: 1em;
+    font-size: 0.75rem;
+}
+
+.depoimento__pais,
+.depoimento__pais__nome,
+.depoimento__pais__nomecrianca {
+    padding: 1em;
+}
+
+.depoimento__pais__nome,
+.depoimento__pais__nomecrianca {
+    margin-left: 3em;
+    padding-top: 0em;
+    font-weight: 700;
+}
+
+.depoimento__pais__nome {
+    padding-bottom: 0em;
+}

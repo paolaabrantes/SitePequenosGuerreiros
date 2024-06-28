@@ -1,4 +1,5 @@
 @import url("estilo/reset.css");
+@import url("estilo/depoimentos.css");
 
 
 :root {
@@ -8,7 +9,6 @@
     --cor-cinza-escuro: #332e29;
     --cor-primaria: #61bb4f;
     --cor-secundaria: #a9d15c;
-
 }
 
 .cabecalho,
@@ -38,7 +38,6 @@
 
 
 .cabecalho {
-<<<<<<< HEAD
     padding: 1em 0.5em;
     background-color: var(--cor-primaria);
 
@@ -53,18 +52,10 @@
 
 .menus__item a {
     text-decoration: none;
-=======
-    padding: 1em;
-    background-color: var(--cor-primaria);
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
     color: var(--cor-branco-principal)
 }
 
 
-<<<<<<< HEAD
-
-=======
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
 .principal__planodefundo {
     background-image: url("/img/criancas_brincando.jpg");
     background-repeat: no-repeat;
@@ -113,10 +104,7 @@
     font-size: 0.875rem;
     color: var(--cor-cinza-escuro);
     width: 30%;
-<<<<<<< HEAD
     float: right;
-=======
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
 }
 
 .botao a {
@@ -171,14 +159,8 @@
         margin: 1em;
     }
 
-<<<<<<< HEAD
     .menus__lista {
         font-size: 1.125rem;
-=======
-
-    .cabecalho {
-        font-size: 1.25rem;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
     }
 
     .principal__planodefundo {
@@ -201,11 +183,7 @@
     .principal__texto {
         grid-column: 2;
         background-color: transparent;
-<<<<<<< HEAD
         margin-top: 7em;
-=======
-        margin-top: 10em;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
         margin-right: 1em;
     }
 
@@ -229,10 +207,6 @@
         display: flex;
         flex-direction: row;
         justify-content: center;
-<<<<<<< HEAD
-=======
-        padding: 2em;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
     }
 
     .lista__informacoes__item {
@@ -240,19 +214,11 @@
     }
 
     .item__titulo {
-<<<<<<< HEAD
         font-size: 4rem;
     }
 
     .item__texto {
         font-size: 2.75rem;
-=======
-        font-size: 3rem;
-    }
-
-    .item__texto {
-        font-size: 2.25rem;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
         margin: 1em 0;
     }
 
@@ -262,11 +228,7 @@
     }
 }
 
-<<<<<<< HEAD
 @media screen and (min-width: 1300px) {
-=======
-@media screen and (min-width: 1048px) {
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
 
     .cabecalho,
     .botao,
@@ -275,7 +237,6 @@
     }
 
     .botao,
-<<<<<<< HEAD
     .lista__informacoes {
         margin: 1em;
     }
@@ -331,6 +292,7 @@
     }
 
     .item__texto {
+        margin-top: 0.5em;
         font-size: 3rem;
     }
 
@@ -345,17 +307,13 @@
 @media screen and (min-width: 1440px) {
 
     .botao,
-=======
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
     .lista__informacoes__item {
         margin: 1.5em;
     }
 
-<<<<<<< HEAD
     .cabecalho {
         padding: 1em;
     }
-
 
     .menus__lista {
         display: flex;
@@ -366,30 +324,13 @@
 
     .container {
         height: 80vh;
-=======
-
-    .cabecalho {
-        font-size: 1rem;
-    }
-
-    .principal__planodefundo {
-        display: none;
-    }
-
-    .container {
-        height: 100vh;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
         width: 100vw;
         background-color: var(--cor-de-fundo);
     }
 
     .principal {
         grid-template-rows: none;
-<<<<<<< HEAD
         grid-template-columns: 60% 40%;
-=======
-        grid-template-columns: 70% 30%;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
         background-image: url("/img/criancas_brincando.jpg");
         background-size: cover;
     }
@@ -397,28 +338,16 @@
     .principal__texto {
         grid-column: 2;
         background-color: transparent;
-<<<<<<< HEAD
         margin-top: 12em;
-=======
-        margin-top: 10em;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
         margin-right: 1em;
     }
 
     .texto__titulo {
-<<<<<<< HEAD
         font-size: 2.5rem;
     }
 
     .texto__descricao {
         font-size: 1.75rem;
-=======
-        font-size: 1.875rem;
-    }
-
-    .texto__descricao {
-        font-size: 1.175rem;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
     }
 
     .botao {
@@ -441,28 +370,16 @@
     }
 
     .item__titulo {
-<<<<<<< HEAD
         font-size: 7rem;
     }
 
     .item__texto {
         font-size: 4rem;
-=======
-        font-size: 3rem;
-    }
-
-    .item__texto {
-        font-size: 2.25rem;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
         margin: 1em 0;
     }
 
     .depoimentos__titulo {
-<<<<<<< HEAD
         font-size: 5rem;
-=======
-        font-size: 2.75rem;
->>>>>>> 561f6910949c943408469ca274fff416d9305d89
         font-weight: 700;
     }
 
