@@ -1,0 +1,19 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100vw;
+}
+body{
+    background-color: gray;
+}
+nav{
+    display:flex;
+    background-color: #a9d15c;  
+}
+p{
+    display: inline-flex;
+}
+.incio{
+    background-color: #61bb4f;
+    border-radius: 5vw;
+    padding: 1.5vw;
+}
