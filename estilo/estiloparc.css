@@ -1,5 +1,5 @@
 body{
-    background-color: gray;
+    background-color: gray; 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav{
@@ -7,13 +7,14 @@ nav{
     background-color: #a9d15c;  
 }
 p{
-    display: inline-flex;
+    display: block;
 }
 .inicio{
     background-color: #61bb4f;
     border-radius: 5vw;
     padding: 1.5vw;
     display: flex;
+    background-color: var(--cor-de-fundo    );
 }
 .txt{
     background-color: var(--cor-branco-principal);
@@ -29,10 +30,20 @@ p{
 }
 img{
     width: 10vw;
-    border-radius: 5vw;
+    border-radius: 2vw;
 }
 a{
     width: fit-content;
+}
+ul{
+    list-style-type: none;
+}
+.cards{
+    background-color: var(--cor-de-fundo);
+    margin-top: 2vw;
+    border-radius: 5vw;
+    text-align: center;
+    display: block;
 }
 @media screen and(max-width: 420px){
     .txt{
@@ -46,4 +57,7 @@ a{
         display: inline-block;
         width: 100%;
     }
+}
+h1{
+    font-size: 3vw;
 }
