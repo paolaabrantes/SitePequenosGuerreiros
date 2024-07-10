@@ -1,5 +1,5 @@
 body{
-    background-color: gray; 
+    background-color: var(--cor-branco-principal); 
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 nav{
@@ -21,6 +21,7 @@ p{
     padding: 1.5vw;
     display: flex;
     background-color: var(--cor-de-fundo    );
+    margin-top: 0.5vw;
 }
 .txt{
     background-color: var(--cor-branco-principal);
