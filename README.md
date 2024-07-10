@@ -14,7 +14,6 @@ Página 2: Sobre Nós
 - Breve resumo sobre a fundadora do projeto
 - História do projeto + vídeo
 - Ações realizadas
-- Máscote + características e breve apresentação + botão 'Compre aqui nossa pelúcia' que redireciona para a Página 5 (Produtos)
 - MVV (Missão, Visão e Valores)
 
 Página 3: Cadastro de Crianças
