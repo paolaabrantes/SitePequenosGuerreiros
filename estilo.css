@@ -57,7 +57,7 @@
 
 
 .principal__planodefundo {
-    background-image: url("/img/criancas_brincando.jpg");
+    background-image: url("./img/home_imagemprinc.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -176,7 +176,7 @@
     .principal {
         grid-template-rows: none;
         grid-template-columns: 60% 40%;
-        background-image: url("/img/criancas_brincando.jpg");
+        background-image: url("/img/home_imagemprinc.png");
         background-size: cover;
     }
 
@@ -250,7 +250,7 @@
     .principal {
         grid-template-rows: none;
         grid-template-columns: 60% 40%;
-        background-image: url("/img/criancas_brincando.jpg");
+        background-image: url("/img/home_imagemprinc.png");
         background-size: cover;
     }
 
@@ -331,7 +331,7 @@
     .principal {
         grid-template-rows: none;
         grid-template-columns: 60% 40%;
-        background-image: url("/img/criancas_brincando.jpg");
+        background-image: url("/img/home_imagemprinc.png");
         background-size: cover;
     }
 
