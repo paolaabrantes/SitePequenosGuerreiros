@@ -144,7 +144,13 @@
     font-weight: 700;
 
 }
-
+.rodape{
+    width: 100%;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    position: fixed;
+    bottom: 0;
+}
 
 @media screen and (min-width: 1024px) {
 
