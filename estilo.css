@@ -7,7 +7,7 @@
     --cor-branco-principal: #ffffff;
     --cor-de-fundo: #f4f0f0;
     --cor-cinza-escuro: #332e29;
-    --cor-primaria: #61bb4f;
+    --cor-primaria: #6e6e6e;
     --cor-secundaria: #a9d15c;
 }
 
@@ -57,7 +57,7 @@
 
 
 .principal__planodefundo {
-    background-image: url("/img/criancas_brincando.jpg");
+    background-image: url("./img/home_imagemprinc.png");
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -144,7 +144,13 @@
     font-weight: 700;
 
 }
-
+.rodape{
+    width: 100%;
+    text-align: center;
+    background-color: var(--cor-primaria);
+    position: fixed;
+    bottom: 0;
+}
 
 @media screen and (min-width: 1024px) {
 
@@ -176,7 +182,7 @@
     .principal {
         grid-template-rows: none;
         grid-template-columns: 60% 40%;
-        background-image: url("/img/criancas_brincando.jpg");
+        background-image: url("/img/home_imagemprinc.png");
         background-size: cover;
     }
 
@@ -250,7 +256,7 @@
     .principal {
         grid-template-rows: none;
         grid-template-columns: 60% 40%;
-        background-image: url("/img/criancas_brincando.jpg");
+        background-image: url("/img/home_imagemprinc.png");
         background-size: cover;
     }
 
@@ -331,7 +337,7 @@
     .principal {
         grid-template-rows: none;
         grid-template-columns: 60% 40%;
-        background-image: url("/img/criancas_brincando.jpg");
+        background-image: url("/img/home_imagemprinc.png");
         background-size: cover;
     }
 
