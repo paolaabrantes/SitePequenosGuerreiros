@@ -1,6 +1,6 @@
 # SitePequenosGuerreiros
 Site desenvolvido para o Projeto Pequenos Guerreiros - Uberlândia
-Por
+Por João, Matheus de Gois, Matheus Mota, Paola Abrantes, Pedro Guedes e Victoria Rocha.
 
     O site possui um total de 6 páginas, sendo:
     
