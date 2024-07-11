@@ -1,0 +1,23 @@
+.itemPai{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card{
+    margin:0.5vw
+}
+.titulos{
+    text-align: center;
+}
+
+.btn{
+    background-color: green;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+}
+
+.card-text{
+    text-align: center;
+}
