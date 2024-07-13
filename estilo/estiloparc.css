@@ -1,6 +1,6 @@
 body{
     background-color: gray; 
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--fonte-principal);
 }
 nav{
     display:flex;
@@ -59,6 +59,7 @@ ul{
     border-radius: 5vw;
     text-align: center;
     display: block;
+    margin-bottom: 2vw;
 }
 @media screen and(max-width: 420px){
     .txt{
