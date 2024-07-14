@@ -14,7 +14,8 @@
 }
 
 .cabecalho,
-.container {
+.container,
+.rodape {
     font-family: var(--fonte-principal);
 }
 
@@ -34,8 +35,13 @@
     border-radius: 0.5em;
 }
 
+a:visited {
+    text-decoration: none;
+}
+
 .botao,
 .botao a {
+    color: var(--cor-cinza-escuro);
     padding: 0.5em 0em;
     margin: 1em;
 }
@@ -164,9 +170,12 @@
 }
 
 .rodape {
-    width: 100%;
+    width: 100vw;
     margin-top: 5em;
+    font-size: 0.75rem;
     background-color: var(--cor-primaria);
+    color: var(--cor-branco-principal);
+    font-weight: 300;
     position: fixed;
     bottom: 0;
 }

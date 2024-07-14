@@ -1,19 +1,9 @@
-body {
-    background-color: var(--cor-de-fundo);
-    font-family: var(--fonte-principal);
-}
-
-nav {
-    display: flex;
-    background-color: #a9d15c;
-}
-
 a:link {
     color: var(--cor-de-fundo)
 }
 
 a:visited {
-    color: var(--cor-de-fundo);
+    color: var(--cor-primaria);
 }
 
 p {
