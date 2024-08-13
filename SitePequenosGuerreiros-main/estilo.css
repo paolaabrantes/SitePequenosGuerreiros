@@ -1,0 +1,389 @@
+@import url("estilo/reset.css");
+@import url("estilo/depoimentos.css");
+@import url("estilo/estiloprod.css");
+@import url("estilo/estiloparc.css");
+
+
+:root {
+    --fonte-principal: "Poppins";
+    --cor-branco-principal: #ffffff;
+    --cor-de-fundo: #ffffff;
+    --cor-cinza-escuro: #332e29;
+    --cor-primaria: #6e6e6e;
+    --cor-secundaria: #a9d15c;
+}
+
+.cabecalho,
+.container,
+.rodape {
+    font-family: var(--fonte-principal);
+}
+
+.texto__titulo,
+.texto__descricao,
+.botao,
+.lista__informacoes,
+.item__titulo,
+.item__texto,
+.depoimentos__titulo,
+.rodape {
+    text-align: center;
+}
+
+.principal__texto,
+.botao {
+    border-radius: 0.5em;
+}
+
+a:visited {
+    text-decoration: none;
+}
+
+.botao,
+.botao a {
+    color: var(--cor-cinza-escuro);
+    padding: 0.5em 0em;
+    margin: 1em;
+}
+
+.lista__informacoes,
+.depoimentos__titulo {
+    text-transform: uppercase;
+}
+
+.lista__informacoes__item,
+.depoimentos__titulo {
+    font-weight: 700;
+}
+
+.texto__titulo,
+.lista__informacoes__item {
+    margin: 0.5em;
+}
+
+.texto__titulo,
+.fundadora {
+    font-weight: 600;
+}
+
+
+.cabecalho {
+    padding: 1em 0.5em;
+    background-color: var(--cor-secundaria);
+}
+
+.menus__lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 0.6875rem;
+}
+
+.menus__item a {
+    text-decoration: none;
+    color: var(--cor-branco-principal)
+}
+
+.principal__planodefundo {
+    background-image: url("./img/home_imagemprinc.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.container {
+    height: 50vh;
+    width: 100vw;
+    background-color: var(--cor-de-fundo);
+}
+
+.principal {
+    display: grid;
+    grid-template-rows: 50% 50%;
+    color: var(--cor-branco-principal);
+    background-color: var(--cor-de-fundo);
+
+}
+
+.principal__texto {
+    padding: 0.5em;
+    margin: 1em 0.5em;
+    margin-bottom: 0em;
+    background-color: var(--cor-secundaria);
+}
+
+.texto__titulo {
+    font-size: 1.125rem;
+}
+
+.texto__descricao {
+    font-size: 0.75rem;
+    font-weight: 400;
+}
+
+.fundadora {
+    margin-top: 0.75em;
+    font-weight: 600;
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    background-color: var(--cor-branco-principal);
+    text-decoration: none;
+    font-size: 0.875rem;
+    color: var(--cor-cinza-escuro);
+    width: 30%;
+    float: right;
+}
+
+.depoimentos {
+    color: var(--cor-cinza-escuro)
+}
+
+
+.lista__informacoes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1em;
+
+}
+
+.lista__informacoes__item {
+    box-sizing: content-box;
+    width: 8rem;
+}
+
+.item__titulo {
+    margin-top: 0.5em;
+    font-size: 1.875rem;
+}
+
+.item__texto {
+    font-size: 1rem;
+    margin: 0.5em 0;
+}
+
+.depoimentos__titulo {
+    font-size: 1.5rem;
+}
+
+.rodape {
+    width: 100vw;
+    margin-top: 5em;
+    font-size: 0.75rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco-principal);
+    font-weight: 300;
+    position: fixed;
+    bottom: 0;
+}
+
+@media screen and (min-width: 768px) {
+
+    .cabecalho,
+    .botao,
+    .lista__informacoes__item {
+        padding: 0.875em;
+    }
+
+    .botao,
+    .lista__informacoes__item,
+    .texto__titulo,
+    .principal__texto {
+        margin: 0.5em;
+    }
+
+    .menus__lista {
+        font-size: 1.125rem;
+    }
+
+    .principal__planodefundo {
+        display: none;
+    }
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--cor-de-fundo);
+    }
+
+    .principal {
+        grid-template-rows: none;
+        grid-template-columns: 65% 35%;
+        background-image: url("/img/home_imagemprinc.png");
+        background-size: cover;
+    }
+
+    .principal__texto {
+        grid-column: 2;
+        background-color: transparent;
+        margin-top: 3em;
+    }
+
+    .texto__titulo {
+        font-size: 1.5rem;
+    }
+
+    .texto__descricao {
+        font-size: 1rem;
+    }
+
+    .botao {
+        display: flex;
+        justify-content: center;
+        font-size: 1rem;
+        font-weight: 600;
+        width: 45%;
+    }
+
+    .lista__informacoes {
+        display: flex;
+        flex-direction: row;
+        justify-content: s;
+    }
+
+    .lista__informacoes__item {
+        font-weight: 700;
+        width: 12rem;
+    }
+
+    .item__titulo {
+        font-size: 4rem;
+    }
+
+    .item__texto {
+        font-size: 2rem;
+        margin: 1em 0;
+    }
+
+    .depoimentos__titulo {
+        font-size: 3rem;
+        font-weight: 700;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .cabecalho,
+    .botao,
+    .lista__informacoes__item {
+        padding: 1em;
+    }
+
+    .botao,
+    .lista__informacoes__item,
+    .principal__texto {
+        margin: 1em;
+    }
+
+    .menus__lista,
+    .texto__descricao,
+    .botao {
+        font-size: 1.125rem;
+    }
+
+    .texto__titulo {
+        font-size: 1.75rem;
+    }
+
+    .lista__informacoes__item {
+        width: 15rem;
+    }
+
+    .item__titulo {
+        font-size: 4.5rem;
+    }
+
+    .item__texto {
+        font-size: 2.25rem;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+
+    .cabecalho,
+    .botao,
+    .lista__informacoes__item {
+        padding: 1em;
+    }
+
+    .botao,
+    .lista__informacoes__item,
+    .principal__texto {
+        margin: 1em;
+    }
+
+    .menus__lista,
+    .texto__descricao,
+    .botao {
+        font-size: 1.35rem;
+    }
+
+    .principal__texto {
+        margin-top: 4em;
+    }
+
+    .texto__titulo {
+        font-size: 2rem;
+    }
+
+    .lista__informacoes__item {
+        width: 20rem;
+    }
+
+    .item__titulo {
+        font-size: 5rem;
+    }
+
+    .item__texto,
+    .depoimentos__titulo {
+        font-size: 2.75rem;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .cabecalho,
+    .botao,
+    .lista__informacoes__item {
+        padding: 1em;
+    }
+
+    .botao,
+    .lista__informacoes__item,
+    .principal__texto {
+        margin: 1em;
+    }
+
+    .menus__lista,
+    .texto__descricao,
+    .botao {
+        font-size: 1.35rem;
+    }
+
+    .principal__texto {
+        margin-top: 4em;
+    }
+
+    .texto__titulo {
+        font-size: 2rem;
+    }
+
+    .lista__informacoes__item {
+        width: 20rem;
+    }
+
+    .item__titulo {
+        font-size: 5rem;
+    }
+
+    .item__texto,
+    .depoimentos__titulo {
+        font-size: 2.75rem;
+    }
+
+}
