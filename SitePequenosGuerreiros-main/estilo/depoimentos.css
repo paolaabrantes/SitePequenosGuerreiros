@@ -1,0 +1,129 @@
+.depoimentos,
+.lista__depoimentos,
+.chamada__parceiros {
+    background-color: var(--cor-de-fundo);
+}
+
+.chamada__parceiros,
+.depoimentos__item {
+    font-size: 0.75rem;
+}
+
+.depoimento__pais__nome,
+.depoimento__pais__nomecrianca,
+.titulo__parceiros__prin {
+    font-weight: 700;
+}
+
+.chamada__parceiros {
+    padding: 1.5em;
+    padding-bottom: 3em;
+    text-align: center;
+}
+
+.depoimentos__item {
+    background-color: var(--cor-branco-principal);
+    margin: 2em;
+    margin-bottom: 0;
+    padding: 0.5;
+    border-radius: 1em;
+}
+
+.depoimento__pais,
+.depoimento__pais__nome,
+.depoimento__pais__nomecrianca,
+.titulo__parceiros__prin {
+    padding: 1em;
+}
+
+.depoimento__pais__nome,
+.depoimento__pais__nomecrianca {
+    margin-left: 2em;
+    padding-top: 0em;
+}
+
+.depoimento__pais__nome {
+    padding-bottom: 0em;
+}
+
+.titulo__parceiros__prin {
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+
+    .chamada__parceiros,
+    .depoimentos__item {
+        font-size: 0.875rem;
+    }
+
+    .depoimentos__item {
+        margin: 1em;
+    }
+
+    .lista__depoimentos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 0;
+    }
+
+    .depoimentos__item {
+        box-sizing: content-box;
+        width: 45%;
+    }
+
+    .titulo__parceiros__prin {
+        font-size: 3rem;
+    }
+
+}
+
+@media screen and (min-width: 992px) {
+
+    .chamada__parceiros,
+    .depoimentos__item {
+        font-size: 1rem;
+    }
+
+    .lista__depoimentos {
+        margin: 0;
+    }
+
+    .depoimentos__item {
+        width: 40%;
+    }
+
+}
+
+@media screen and (min-width: 1200px) {
+
+    .lista__depoimentos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 0;
+    }
+
+    .depoimentos__item {
+        width: 45%;
+    }
+
+}
+
+@media screen and (min-width: 1400px) {
+
+    .lista__depoimentos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 0;
+    }
+
+    .depoimentos__item {
+        width: 45%;
+    }
+
+}
