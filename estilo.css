@@ -221,7 +221,7 @@
     .principal {
         grid-template-rows: none;
         grid-template-columns: 65% 35%;
-        background-image: url("/img/home_imagemprinc.png");
+        background-image: url("./img/home_imagemprinc.png");
         background-size: cover;
     }
 

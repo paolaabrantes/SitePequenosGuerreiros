@@ -4,7 +4,7 @@
     background-color: var(--cor-de-fundo);
 }
 
-img {
+.img_fundadora {
     max-width: 100%;
     height: auto;
 }
@@ -14,23 +14,28 @@ img {
     line-height: 1.6;
 }
 
-h1,
-h2,
-h3 {
+.tituloin,
+.tituloa2,
+.titulosb3,
+.tituloa3 {
     color: var(--cor-cinza-escuro);
 }
 
-h1 {
+.tituloin,
+.tituloa2 {
     font-size: 2.25rem;
     margin-top: 6.25rem;
 }
 
-h2 {
+.titulosb3 {
     font-size: 1.75rem;
     margin-top: 1.875rem;
 }
 
-p {
+.textofn,
+.textohs,
+.textosn,
+.textocmc {
     margin: 0.625rem 0;
     color: var(--cor-primaria);
 }
@@ -157,7 +162,7 @@ p {
     justify-content: center;
 }
 
-iframe {
+.video {
     border: none;
     outline: none;
     box-shadow: none;
