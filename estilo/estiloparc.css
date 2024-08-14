@@ -1,12 +1,18 @@
-a:link {
+.body__parceiros {
+    font-family: var(--fonte-principal);
+}
+
+.link__parc-img:link {
     color: var(--cor-de-fundo)
 }
 
-a:visited {
+.link__parc-img:visited {
     color: var(--cor-primaria);
 }
 
-p {
+
+
+.txt__parceiros {
     display: block;
 }
 
@@ -33,13 +39,13 @@ p {
     padding: 1.5vw;
 }
 
-img {
+.parc-img-logo {
     width: 10vw;
     border-radius: 2vw;
     margin: 0.2vw;
 }
 
-img:hover {
+.parc-img-logo:hover {
     box-shadow: 0 0 0.3vw #badb42;
     scale: 1.09;
 }
@@ -48,7 +54,7 @@ img:hover {
     text-align: center;
 }
 
-a {
+.link__parc-img {
     width: fit-content;
 }
 
@@ -81,6 +87,6 @@ ul {
     }
 }
 
-h1 {
+.titulo__parceiros {
     font-size: 3vw;
 }
