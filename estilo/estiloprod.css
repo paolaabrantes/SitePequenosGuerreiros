@@ -1,27 +1,78 @@
-.itemPai{
+body {
+    background-color: var(--cor-de-fundo);
+}
+
+.itemPai {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-}
-.card{
-    margin:0.5vw
-}
-.titulos{
-    text-align: center;
+    font-family: var(--fonte-principal);
 }
 
-.btn{
-    background-color: green;
-    color: aliceblue;
+
+.card {
+    margin: 0.5em;
+    border-radius: 1em;
+    padding: 0.5em;
+}
+
+.card-img-top {
+    border-radius: 1em;
+    margin: 0;
+}
+
+
+
+.titulos {
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1em 0;
+}
+
+.tituloAcessorios {
+    font-size: 1.125rem;
+    text-align: center;
+    font-weight: 600;
+}
+
+.btn {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco-principal);
     display: flex;
     justify-content: center;
+    text-align: center;
+    font-size: 0.5rem;
 }
 
-.card-text{
+.card-text {
     text-align: center;
+    font-size: 0.875rem;
+
 }
-.diminu{
+
+.diminu {
     padding-left: 5vw;
     padding-right: 5vw;
+}
+
+@media screen and (min-width: 768px) {
+
+    .card {
+        margin: 1em;
+    }
+
+    .titulos {
+        font-size: 2rem;
+    }
+
+    .btn {
+        font-size: 1rem;
+    }
+
+    .diminu {
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
 }
