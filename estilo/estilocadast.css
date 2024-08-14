@@ -1,5 +1,5 @@
 /* DEFININDO A TELA PARA PEGAR INTEIRA*/
-body {
+.body__cadastro {
     width: 100vw;
     height: 100vh;
 }
@@ -35,14 +35,14 @@ body {
     background-color: #F4F0F0;
 
     position: absolute;
-	right: 51em;
-	top: 13.5em;
+    right: 51em;
+    top: 13.5em;
 }
 
 #imagem {
     width: 40em;
 
     position: absolute;
-	right: 3.5em;
-	top: 11.2em;
+    right: 3.5em;
+    top: 11.2em;
 }

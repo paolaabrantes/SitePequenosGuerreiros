@@ -1,14 +1,14 @@
 @import url("estilo/reset.css");
 @import url("estilo/depoimentos.css");
-@import url("estilo/estiloprod.css");
 @import url("estilo/estiloparc.css");
 @import url("estilo/sobre_nos.css");
+@import url("estilo/estiloprod.css");
 
 
 :root {
     --fonte-principal: "Poppins";
     --cor-branco-principal: #ffffff;
-    --cor-de-fundo: #EDF5DE;
+    --cor-de-fundo: #f5eede;
     --cor-de-fundo-2: #f8f4f4;
     --cor-cinza-escuro: #332e29;
     --cor-primaria: #6e6e6e;
@@ -38,9 +38,7 @@
     border-radius: 0.5em;
 }
 
-a:visited {
-    text-decoration: none;
-}
+
 
 .botao,
 .botao a {
@@ -84,7 +82,12 @@ a:visited {
     margin-bottom: 0;
 }
 
-.menus__item a {
+.menus__item__link {
+    text-decoration: none;
+    color: var(--cor-branco-principal);
+}
+
+.menus__item__link:visited {
     text-decoration: none;
     color: var(--cor-branco-principal)
 }
@@ -93,7 +96,6 @@ a:visited {
     background-image: url("./img/home_imagemprinc.png");
     background-repeat: no-repeat;
     background-size: cover;
-
 }
 
 .container {
