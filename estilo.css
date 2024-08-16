@@ -3,6 +3,7 @@
 @import url("estilo/estiloparc.css");
 @import url("estilo/sobre_nos.css");
 @import url("estilo/estiloprod.css");
+@import url("estilo/carrossel.css");
 
 
 :root {
@@ -18,7 +19,8 @@
 
 .cabecalho,
 .container,
-.rodape {
+.rodape,
+.principal__texto {
     font-family: var(--fonte-principal);
 }
 
@@ -38,12 +40,10 @@
     border-radius: 0.5em;
 }
 
-
-
 .botao,
 .botao a {
     color: var(--cor-cinza-escuro);
-    padding: 0.25em 0em;
+    padding: 0.5em 0;
     margin: 0.5em;
 }
 
@@ -60,7 +60,9 @@
 .texto__titulo,
 .lista__informacoes__item {
     margin: 0.5em;
+    margin-top: 0;
 }
+
 
 .texto__titulo,
 .fundadora {
@@ -74,11 +76,16 @@
 
 }
 
+.texto__descricao,
+.principal__texto {
+    margin: 1em 0.5em;
+}
+
 .menus__lista {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    font-size: 0.6875rem;
+    font-size: 0.675rem;
     margin-bottom: 0;
 }
 
@@ -113,25 +120,24 @@
 }
 
 .principal__texto {
-    padding: 0.25em;
-    margin: 1em 0.5em;
+    padding: 1em 0.5em;
     margin-bottom: 0em;
     background-color: var(--cor-secundaria);
 }
 
 .texto__titulo {
-    font-size: 1.125rem;
+    font-size: 1rem;
     color: var(--cor-branco-principal);
 }
 
 .texto__descricao {
-    font-size: 0.65rem;
+    font-size: 0.675rem;
     font-weight: 400;
     color: var(--cor-branco-principal);
 }
 
 .fundadora {
-    margin-top: 0.75em;
+    margin-top: 0.5em;
     font-weight: 600;
 }
 
@@ -178,10 +184,15 @@
     font-size: 1.5rem;
 }
 
-.precos{
+.precos {
     text-align: center;
     font-weight: bold;
 }
+
+.carrossel__container {
+    background-color: var(--cor-branco-principal);
+}
+
 
 .rodape {
     width: 100vw;
@@ -194,7 +205,34 @@
     bottom: 0;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 400px) {
+
+    .container {
+        height: 53vh;
+        width: 100vw;
+        background-color: var(--cor-de-fundo);
+    }
+
+    .texto__titulo {
+        font-size: 1.125rem;
+        color: var(--cor-branco-principal);
+    }
+
+    .texto__descricao {
+        font-size: 0.75rem;
+        font-weight: 400;
+        color: var(--cor-branco-principal);
+    }
+
+    .fundadora {
+        margin-top: 0.75em;
+        font-weight: 600;
+    }
+
+}
+
+
+@media screen and (min-width: 760px) {
 
     .cabecalho,
     .botao,
@@ -218,7 +256,7 @@
     }
 
     .container {
-        height: 100vh;
+        height: 50vh;
         width: 100vw;
         background-color: var(--cor-de-fundo);
     }
@@ -279,7 +317,13 @@
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 800px) {
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--cor-de-fundo);
+    }
 
     .cabecalho,
     .botao,
