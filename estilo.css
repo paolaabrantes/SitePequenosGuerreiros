@@ -3,6 +3,7 @@
 @import url("estilo/estiloparc.css");
 @import url("estilo/sobre_nos.css");
 @import url("estilo/estiloprod.css");
+@import url("estilo/carrossel.css");
 
 
 :root {
@@ -75,6 +76,11 @@
 
 }
 
+.texto__descricao,
+.principal__texto {
+    margin: 1em 0.5em;
+}
+
 .menus__lista {
     display: flex;
     flex-direction: row;
@@ -100,7 +106,7 @@
 }
 
 .container {
-    height: 50vh;
+    height: 65vh;
     width: 100vw;
     background-color: var(--cor-de-fundo);
 }
@@ -114,8 +120,7 @@
 }
 
 .principal__texto {
-    padding: 1em;
-    margin: 1em 0.5em;
+    padding: 1em 0.5em;
     margin-bottom: 0em;
     background-color: var(--cor-secundaria);
 }
@@ -179,10 +184,15 @@
     font-size: 1.5rem;
 }
 
-.precos{
+.precos {
     text-align: center;
     font-weight: bold;
 }
+
+.carrossel__container {
+    background-color: var(--cor-branco-principal);
+}
+
 
 .rodape {
     width: 100vw;
@@ -195,7 +205,13 @@
     bottom: 0;
 }
 
-@media screen and (min-width: 425px) {
+@media screen and (min-width: 400px) {
+
+    .container {
+        height: 53vh;
+        width: 100vw;
+        background-color: var(--cor-de-fundo);
+    }
 
     .botao,
     .botao a {

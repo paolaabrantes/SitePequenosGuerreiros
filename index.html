@@ -8,6 +8,7 @@
     <title>Pequenos Guerreiros</title>
     <!--estilos css-->
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
     <link rel="stylesheet" href="estilo.css">
 
     <!--fonte-->
@@ -123,16 +124,66 @@
                 class="chamada__link">clicando
                 aqui</a>!
         </h5>
-        <h1 class="titulo__parceiros__prin">parceiros</h1>
-        <ul>
-            <li></li>
-        </ul>
-    </section>
+        <section class="container carrossel">
+            <h2 class="titulo__parceiros__prin">parceiros</h2>
+            <div class="carrossel__container">
+                <!-- Slider main container -->
+                <div class="swiper">
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/aciub.jpeg"></div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/aroeira.jpeg"></div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/audicon.png"></div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/casaflor.jpeg">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/cf.jpeg">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/conselt.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/febracis.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/filipe.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/gerecaodevalor.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/junco.jpeg">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/maite.jpeg">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/pantex.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/pimentadoce.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/politriz.jpeg">
+                        </div>
+                    </div>
+                    <!-- If we need navigation buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+        </section>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 0,
+                slidesPerView: 5,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+
 </body>
 
 <footer class="rodape">
     Feito por Matheus, Matheus Mota, João, Pedro, Paola, Victória
 </footer>
+
+
 
 
 </html>
