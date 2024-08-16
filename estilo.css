@@ -106,7 +106,7 @@
 }
 
 .container {
-    height: 65vh;
+    height: 50vh;
     width: 100vw;
     background-color: var(--cor-de-fundo);
 }
@@ -213,24 +213,6 @@
         background-color: var(--cor-de-fundo);
     }
 
-    .botao,
-    .botao a {
-        color: var(--cor-cinza-escuro);
-        padding: 0.5em 0em;
-        margin: 1em;
-    }
-
-    .principal__texto {
-        padding: 0.5em;
-        margin-bottom: 0em;
-        background-color: var(--cor-secundaria);
-    }
-
-    .texto__titulo,
-    .principal__texto {
-        margin: 0.5em;
-    }
-
     .texto__titulo {
         font-size: 1.125rem;
         color: var(--cor-branco-principal);
@@ -247,52 +229,10 @@
         font-weight: 600;
     }
 
-    .depoimentos {
-        color: var(--cor-cinza-escuro)
-    }
-
-
-    .lista__informacoes {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding: 1em;
-
-    }
-
-    .lista__informacoes__item {
-        box-sizing: content-box;
-        width: 8rem;
-    }
-
-    .item__titulo {
-        margin-top: 0.5em;
-        font-size: 1.875rem;
-    }
-
-    .item__texto {
-        font-size: 1rem;
-        margin: 0.5em 0;
-    }
-
-    .depoimentos__titulo {
-        font-size: 1.5rem;
-    }
-
-    .rodape {
-        width: 100vw;
-        margin-top: 5em;
-        font-size: 0.75rem;
-        background-color: var(--cor-primaria);
-        color: var(--cor-branco-principal);
-        font-weight: 300;
-        position: fixed;
-        bottom: 0;
-    }
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 760px) {
 
     .cabecalho,
     .botao,
@@ -316,7 +256,7 @@
     }
 
     .container {
-        height: 100vh;
+        height: 50vh;
         width: 100vw;
         background-color: var(--cor-de-fundo);
     }
@@ -377,7 +317,13 @@
 
 }
 
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 800px) {
+
+    .container {
+        height: 100vh;
+        width: 100vw;
+        background-color: var(--cor-de-fundo);
+    }
 
     .cabecalho,
     .botao,
