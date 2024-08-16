@@ -1,6 +1,7 @@
 .container .carrossel {
     font-family: var(--fonte-primaria);
     background-color: var(--cor-branco-principal);
+    height: 70vh;
 }
 
 .titulo__parceiros__prin {
