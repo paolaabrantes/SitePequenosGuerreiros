@@ -34,13 +34,13 @@
 }
 
 .parc-img {
-    width: 70%;
+    width: 60%;
     display: flexbox;
     padding: 1.5vw;
 }
 
 .parc-img-logo {
-    width: 10vw;
+    width: 10em;
     border-radius: 2vw;
     margin: 0.2vw;
 }

@@ -4,14 +4,22 @@
 
 }
 
+.menus__item__link {
+    text-decoration: none;
+}
+
 .itemPai {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    font-family: var(--fonte-principal);
 }
 
+.quokkinha__img {
+    height: 25%;
+    width: 25%;
+
+}
 
 .card {
     margin: 0.5em;
@@ -46,6 +54,7 @@
     justify-content: center;
     text-align: center;
     font-size: 0.5rem;
+    width: 40%;
 }
 
 .card-text {
