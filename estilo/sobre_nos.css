@@ -31,7 +31,7 @@
 .textosn,
 .textocmc {
     margin: 1em;
-    color: var(--cor-primaria);
+    color: var(--cor-cinza-escuro);
     font-size: 0.875rem;
     line-height: 1.2;
     text-indent: 0.2em;
@@ -89,9 +89,9 @@
 
 .values-section {
     margin: 0.5em;
-    background: var(--cor-de-fundo-2);
+    background: var(--cor-de-fundo);
     padding: 0.5em;
-    box-shadow: 0 0 10px var(--cor-de-fundo-2);
+    box-shadow: 0 0 10px var(--cor-de-fundo);
     border-radius: 8px;
 
 }
@@ -130,6 +130,10 @@ iframe {
     background-color: var(--cor-principal);
     justify-content: center
 }
+
+
+
+
 
 @media screen and (min-width: 1024px) {
     .container {
