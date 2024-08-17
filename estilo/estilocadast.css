@@ -112,6 +112,52 @@
     }
 }
 
+@media screen and (min-width: 900px) {
+
+    .retangulo {
+        display: block;
+        background-color: var(--cor-retangulo);
+        width: 60em;
+        height: 10em;
+        margin-top: 1em;
+        border-radius: 1em;
+
+    }
+
+    .texto {
+        line-height: 1.5em;
+        text-align: center;
+        position: absolute;
+        left: 5em;
+        top: 20em;
+    }
+
+    #botão {
+        letter-spacing: 0.03em;
+        border-radius: 0.7em;
+        border-style: none;
+        width: 17em;
+        height: 3em;
+        background-color: #F4F0F0;
+        position: absolute;
+        right: 42em;
+        top: 18.5em;
+    }
+
+    #imagem {
+        width: 40em;
+        position: absolute;
+        right: 0.5em;
+        top: 16.5em;
+    }
+
+
+
+}
+
+
+
+
 @media screen and (min-width: 1300px) {
 
     /* DEFININDO A TELA PARA PEGAR INTEIRA*/
