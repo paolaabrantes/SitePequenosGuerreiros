@@ -70,23 +70,3 @@ ul {
     display: block;
     margin-bottom: 2vw;
 }
-
-@media screen and(max-width: 420px) {
-    .txt {
-        display: inline-block;
-        width: 100%;
-    }
-
-    .inicio {
-        display: block;
-    }
-
-    .parc-img {
-        display: inline-block;
-        width: 100%;
-    }
-}
-
-.titulo__parceiros {
-    font-size: 3vw;
-}
