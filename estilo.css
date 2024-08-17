@@ -4,7 +4,6 @@
 @import url("estilo/sobre_nos.css");
 @import url("estilo/estiloprod.css");
 @import url("estilo/carrossel.css");
-@import url("https: //stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css");
 
 
 :root {
@@ -232,13 +231,16 @@
         margin-top: 0.75em;
         font-weight: 600;
     }
-    .inicio{
+
+    .inicio {
         display: block;
     }
-    .txt{
+
+    .txt {
         width: 90%;
     }
-    .parc-img{
+
+    .parc-img {
         width: 90%;
     }
 }
@@ -326,13 +328,16 @@
         font-size: 3rem;
         font-weight: 700;
     }
-    .inicio{
+
+    .inicio {
         display: block;
     }
-    .txt{
+
+    .txt {
         width: 90%;
     }
-    .parc-img{
+
+    .parc-img {
         width: 90%;
     }
 }
