@@ -9,10 +9,11 @@
 :root {
     --fonte-principal: "Poppins";
     --cor-branco-principal: #ffffff;
-    --cor-de-fundo: #f5eede;
-    --cor-de-fundo-2: #f8f4f4;
+    --cor-de-fundo: #f6f0dc;
+    --cor-de-fundo-2: #fbf9f0;
     --cor-cinza-escuro: #332e29;
     --cor-primaria: #6e6e6e;
+    --cor-retangulo: #cad6b2dc;
     --cor-secundaria: #a9d15c;
     --cor-terciaria: #84AF31;
 }
@@ -25,15 +26,16 @@
 }
 
 .texto__titulo,
+.depoimentos__titulo,
+.rodape,
 .texto__descricao,
 .botao,
 .lista__informacoes,
 .item__titulo,
-.item__texto,
-.depoimentos__titulo,
-.rodape {
+.item__texto {
     text-align: center;
 }
+
 
 .principal__texto,
 .botao {
@@ -72,7 +74,7 @@
 
 .cabecalho {
     padding: 0.5em;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
 
 }
 
@@ -122,7 +124,8 @@
 .principal__texto {
     padding: 1em 0.5em;
     margin-bottom: 0em;
-    background-color: var(--cor-secundaria);
+    background-color: var(--cor-terciaria);
+    height: max-content;
 }
 
 .texto__titulo {
@@ -231,13 +234,16 @@
         margin-top: 0.75em;
         font-weight: 600;
     }
-    .inicio{
+
+    .inicio {
         display: block;
     }
-    .txt{
+
+    .txt {
         width: 90%;
     }
-    .parc-img{
+
+    .parc-img {
         width: 90%;
     }
 }
@@ -325,18 +331,21 @@
         font-size: 3rem;
         font-weight: 700;
     }
-    .inicio{
+
+    .inicio {
         display: block;
     }
-    .txt{
+
+    .txt {
         width: 90%;
     }
-    .parc-img{
+
+    .parc-img {
         width: 90%;
     }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
 
     .container {
         height: 100vh;
@@ -379,7 +388,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1100px) {
 
     .cabecalho,
     .botao,
