@@ -13,18 +13,30 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+
 }
 
-.quokkinha__img {
-    height: 25%;
-    width: 25%;
 
+.menus__item__link:hover {
+    text-decoration: none;
+    color: var(--cor-branco-principal);
+}
+
+.quokkinha_img {
+    height: 50%;
+    width: 50%;
+
+}
+
+.q_strong {
+    font-weight: 600;
 }
 
 .card {
     margin: 0.5em;
     border-radius: 1em;
     padding: 0.5em;
+
 }
 
 .card-img-top {
@@ -32,7 +44,12 @@
     margin: 0;
 }
 
-.prod_inicio{
+.card-body {
+    display: block;
+    text-align: center;
+}
+
+.prod_inicio {
     display: block;
     text-align: center;
 }
@@ -40,9 +57,9 @@
 
 .titulos {
     text-align: center;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 600;
-    margin: 1em 0;
+    margin: 1em 0.5em;
     display: block;
 }
 
@@ -51,26 +68,46 @@
     text-align: center;
     font-weight: 600;
 }
-.x{
+
+.x {
     margin: 1.5vw;
     display: flex;
     justify-content: space-evenly;
 }
+
 .btn {
     background-color: var(--cor-terciaria);
     color: var(--cor-branco-principal);
-    display: flex;
-    justify-content: center;
-    text-align: center;
-    font-size: 0.5rem;
-    width: 40%;
+    padding: 0.5em;
+    margin: 1em 0.5em 0;
+    font-size: 0.75rem;
+    width: 55%;
 }
 
-.card-text {
+.btn_quo {
+    background-color: var(--cor-terciaria);
+    color: var(--cor-branco-principal);
+    border-radius: 0.5em;
+    padding: 0.5em;
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+.card-text,
+.q__texto {
     text-align: center;
     font-size: 0.875rem;
+    padding: 1em;
 
 }
+
+.precos {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 0 0.5em;
+}
+
 
 .diminu {
     padding-left: 5vw;
