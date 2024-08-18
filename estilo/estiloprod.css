@@ -1,7 +1,7 @@
 .produtos__body {
     background-color: var(--cor-de-fundo);
     font-family: var(--fonte-principal);
-
+    display: block;
 }
 
 .menus__item__link {
@@ -32,6 +32,10 @@
     margin: 0;
 }
 
+.prod_inicio{
+    display: block;
+    text-align: center;
+}
 
 
 .titulos {
@@ -39,6 +43,7 @@
     font-size: 1.5rem;
     font-weight: 600;
     margin: 1em 0;
+    display: block;
 }
 
 .tituloAcessorios {
@@ -46,7 +51,11 @@
     text-align: center;
     font-weight: 600;
 }
-
+.x{
+    margin: 1.5vw;
+    display: flex;
+    justify-content: space-evenly;
+}
 .btn {
     background-color: var(--cor-terciaria);
     color: var(--cor-branco-principal);

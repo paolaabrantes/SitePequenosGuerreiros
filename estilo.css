@@ -196,7 +196,9 @@
     background-color: var(--cor-branco-principal);
 }
 
-
+.btn{
+    text-align: center;
+}
 .rodape {
     width: 100vw;
     margin-top: 5em;
