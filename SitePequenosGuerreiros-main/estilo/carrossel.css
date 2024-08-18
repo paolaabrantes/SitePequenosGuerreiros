@@ -1,0 +1,46 @@
+.container .carrossel {
+    font-family: var(--fonte-primaria);
+    background-color: var(--cor-branco-principal);
+    height: 20vh;
+}
+
+.titulo__parceiros__prin {
+    font-family: var(--fonte-primaria);
+}
+
+
+.carrossel_parceiro {
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+    border-color: var(--cor-cinza-escuro);
+}
+
+.swiper-wrapper {
+    margin: 0.5em 1em;
+}
+
+@media screen and (min-width: 900px) {
+
+    .container .carrossel {
+        font-family: var(--fonte-primaria);
+        background-color: var(--cor-branco-principal);
+        height: 70%;
+    }
+
+    .carrossel_parceiro {
+        width: 50%;
+        height: 50%;
+        border-radius: 50%;
+        border-color: var(--cor-cinza-escuro);
+
+    }
+
+    .swiper-wrapper {
+        margin: 0.5em 2em;
+
+    }
+
+
+
+}

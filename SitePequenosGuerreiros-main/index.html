@@ -7,8 +7,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Pequenos Guerreiros</title>
     <!--estilos css-->
-    <link rel="stylesheet" href="estilo.css">
     <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="estilo.css">
+
     <!--fonte-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -22,22 +24,22 @@
     <header class="cabecalho">
         <ul class="menus__lista">
             <li class="menus__item">
-                <a href="index.html">Home</a>
+                <a class="menus__item__link" href="index.html">Home</a>
             </li>
             <li class="menus__item">
-                <a href="Sobre_nos.html">Sobre Nós</a>
+                <a class="menus__item__link" href="Sobre_nos.html">Sobre Nós</a>
             </li>
             <li class="menus__item">
-                <a href="#">Cadastro</a>
+                <a class="menus__item__link" href="cadastro.html">Cadastro</a>
             </li>
             <li class="menus__item">
-                <a href="parceiros.html">Parceiros</a>
+                <a class="menus__item__link" href="parceiros.html">Parceiros</a>
             </li>
             <li class="menus__item">
-                <a href="produtos.html">Produtos</a>
+                <a class="menus__item__link" href="produtos.html">Produtos</a>
             </li>
             <li class="menus__item">
-                <a href="#">Contato</a>
+                <a class="menus__item__link" href="contato.html">Contato</a>
             </li>
         </ul>
     </header>
@@ -53,9 +55,8 @@
                 diagnóstico de doenças raras e cuidados paliativos.“ </p>
             <p class="texto__descricao fundadora"> Adriana Guerra, fundadora dos Pequenos
                 Guerreiros
-                <a class="botao" href="#">Saiba Mais</a>
+                <a class="botao" href="Sobre_nos.html">Saiba Mais</a>
             </p>
-
         </div>
     </section>
     <section class="container depoimentos">
@@ -119,20 +120,67 @@
                 <p class="depoimento__pais__nomecrianca"><strong>Mãe da eterna princesa Maria Clara</strong></p>
             </li>
         </ul>
-        <h5 class="chamada__parceiros">Se torne um amigo ou parceiro do projeto <a href="#"
+        <h5 class="chamada__parceiros">Se torne um amigo ou parceiro do projeto <a href="parceiros.html"
                 class="chamada__link">clicando
                 aqui</a>!
         </h5>
-        <h1 class="titulo__parceiros__prin">parceiros</h1>
-        <ul>
-            <li></li>
-        </ul>
-    </section>
+        <section class="container carrossel">
+            <h2 class="titulo__parceiros__prin">parceiros</h2>
+            <div class="carrossel__container">
+                <!-- Slider main container -->
+                <div class="swiper">
+
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                        <!-- Slides -->
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/aciub.jpeg"></div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/aroeira.jpeg"></div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/audicon.png"></div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/casaflor.jpeg">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/cf.jpeg">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/conselt.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/febracis.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/filipe.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/gerecaodevalor.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/junco.jpeg">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/maite.jpeg">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/pantex.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/pimentadoce.png">
+                        </div>
+                        <div class="swiper-slide"><img class="carrossel_parceiro" src="img/img-parc/politriz.jpeg">
+                        </div>
+                    </div>
+
+        </section>
+
+        <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                spaceBetween: 0,
+                slidesPerView: 5,
+                pagination: {
+                    el: '.swiper-pagination',
+                    type: 'bullets',
+                },
+            });
+        </script>
+
 </body>
 
 <footer class="rodape">
-    Feito por Matheus, Matheus, João, Pedro, Paola, Victória
+    Feito por Matheus, Matheus Mota, João, Pedro, Paola, Victória
 </footer>
+
+
 
 
 </html>

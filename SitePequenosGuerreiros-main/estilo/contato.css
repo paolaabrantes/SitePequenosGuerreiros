@@ -1,0 +1,26 @@
+body{
+    font-family: var(--fonte-principal);
+}
+h1{
+    font-size:xx-large;
+    margin-bottom: 2vw;
+}
+h3{
+    font-size: x-large;
+}
+.ctt{
+    margin: 0.75vw;
+    padding: 0.75vw;
+    background-color: var(--cor-de-fundo);
+    border-radius: 10%;
+}
+.ctt_txt{
+    margin-bottom: 2vw; 
+}
+.ctt_img{
+    justify-content: space-evenly;
+}
+img{
+    width: 5vw;
+    margin-left: 5vw;
+}
