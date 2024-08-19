@@ -199,8 +199,10 @@
 .btn{
     text-align: center;
 }
+
 .rodape {
     width: 100vw;
+    height: 1.3em;
     margin-top: 5em;
     font-size: 0.75rem;
     background-color: var(--cor-primaria);
@@ -208,6 +210,10 @@
     font-weight: 300;
     position: fixed;
     bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .produtos__body{

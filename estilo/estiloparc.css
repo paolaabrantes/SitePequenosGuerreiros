@@ -67,3 +67,19 @@ ul {
     display: block;
     margin-bottom: 2vw;
 }
+
+.rodape {
+    width: 100vw;
+    height: 1.3em;
+    margin-top: 5em;
+    font-size: 0.75rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco-principal);
+    font-weight: 300;
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

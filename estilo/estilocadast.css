@@ -1,3 +1,19 @@
+.rodape {
+    width: 100vw;
+    height: 1.3em;
+    margin-top: 5em;
+    font-size: 0.75rem;
+    background-color: var(--cor-primaria);
+    color: var(--cor-branco-principal);
+    font-weight: 300;
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 @media screen and (min-width: 700px) {
     .cabecalho { max-width: 100%; }
     .rodape { max-width: 100%; }
