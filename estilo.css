@@ -220,7 +220,7 @@
     font-family: var(--fonte-principal);
 }
 @media screen and (min-width: 400px) {
-
+ 
     .container {
         height: 53vh;
         width: 100vw;
